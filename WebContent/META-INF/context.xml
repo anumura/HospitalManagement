@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/hospitalmanagement" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="root" password="R@jesh4375" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://127.0.0.1:3306/hospitalmanagement?allowPublicKeyRetrieval=true"/>
+
+</Context>	
